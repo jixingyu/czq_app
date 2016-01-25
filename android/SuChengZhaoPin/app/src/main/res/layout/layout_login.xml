@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
+    <RadioGroup
+        android:id="@+id/top_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/login_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/green_white_tab"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/register_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/green_white_tab"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/text_default"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_line_gadarene" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--登录-->
+        <LinearLayout
+            android:id="@+id/login_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding">
+
+            <EditText
+                android:id="@+id/login_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/icon_name"
+                android:drawablePadding="@dimen/default_padding"
+                android:hint="@string/username_hint"
+                android:padding="@dimen/default_padding"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+                android:textCursorDrawable="@null" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <EditText
+                android:id="@+id/login_psw_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/icon_psw"
+                android:drawablePadding="@dimen/default_padding"
+                android:hint="@string/psw_hint"
+                android:inputType="textPassword"
+                android:padding="@dimen/default_padding"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+                android:textCursorDrawable="@null" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:background="@color/divider" />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/default_margin"
+                android:background="@drawable/orange_btn_with_radius"
+                android:text="@string/confirm"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/find_psw_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="@dimen/default_padding"
+                android:text="@string/find_psw"
+                android:textColor="@color/text_yellow" />
+
+        </LinearLayout>
+
+        <!--注册-->
+        <LinearLayout
+            android:id="@+id/register_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/register_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/icon_name"
+                android:drawablePadding="@dimen/default_padding"
+                android:hint="@string/username_hint"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/default_padding"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+                android:textCursorDrawable="@null" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <EditText
+                android:id="@+id/register_psw_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/icon_psw"
+                android:drawablePadding="@dimen/default_padding"
+                android:hint="@string/set_psw_hint"
+                android:padding="@dimen/default_padding"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+                android:textCursorDrawable="@null" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:background="@color/divider" />
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/default_margin"
+                android:background="@drawable/orange_btn_with_radius"
+                android:text="@string/register"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

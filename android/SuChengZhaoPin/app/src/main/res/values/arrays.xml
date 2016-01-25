@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="personal_info_left_text">
+        <item>姓名：</item>
+        <item>性别：</item>
+        <item>出生日期：</item>
+        <item>籍贯：</item>
+        <item>开始工作时间：</item>
+        <item>手机号：</item>
+        <item>邮箱：</item>
+        <item>毕业院校：</item>
+        <item>大学专业：</item>
+        <item>学历：</item>
+        <item>政治面貌：</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>女</item>
+        <item>男</item>
+    </string-array>
+
+    <string-array name="select_end_time">
+        <item>至今</item>
+        <item>选择其他时间</item>
+    </string-array>
+
+</resources>

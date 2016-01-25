@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="orange">#e47315</color>
+    <color name="divider">#e5e5e5</color>
+    <color name="divider_dark">#a3a3a3</color>
+    <color name="hint">#cccccc</color>
+
+    <color name="bg_gray">#eeeeee</color>
+    <color name="bg_gray_light">#f0f0f0</color>
+    <color name="bg_green">#35bc7a</color>
+    <color name="bg_dark_green">#2b9362</color>
+    <color name="bg_orange">#f2693f</color>
+    <color name="bg_orange_disabled">#82f2693f</color>
+
+    <color name="text_default">#808080</color>
+    <color name="text_dark">#3a3a3a</color>
+    <color name="text_green">#34bb79</color>
+    <color name="text_blue">#0462c2</color>
+    <color name="text_orange">#e47315</color>
+    <color name="text_yellow">#fe9a00</color>
+    <color name="text_dark_yellow">#ec770e</color>
+    <color name="text_red">#e12e32</color>
+
+    <!--<color name="mdtp_accent_color">#009688</color>-->
+    <!--<color name="mdtp_accent_color_dark">#00796b</color>-->
+
+</resources>

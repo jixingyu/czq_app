@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
+    <include
+        android:id="@+id/user_edit_name_lay"
+        layout="@layout/layout_list_item_with_edit" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <include
+        android:id="@+id/user_edit_mobile_lay"
+        layout="@layout/layout_list_item_with_edit" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <RelativeLayout
+        android:id="@+id/user_edit_email_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding">
+
+        <TextView
+            android:id="@+id/user_edit_email_right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawablePadding="16dp"
+            android:drawableRight="@drawable/icon_right_transparent"
+            android:textColor="@color/gray"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/user_edit_email_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/edit_user_info_right_text"
+            android:drawablePadding="16dp"
+            android:drawableLeft="@drawable/icon_email_address"
+            android:text="@string/email"
+            android:gravity="center_vertical"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/orange_btn_with_radius"
+        android:text="@string/save"
+        android:textColor="@color/white" />
+
+</LinearLayout>

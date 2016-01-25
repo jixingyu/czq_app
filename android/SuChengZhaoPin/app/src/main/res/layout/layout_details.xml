@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
+    <RadioGroup
+        android:id="@+id/top_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/job_details_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/green_white_tab"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/job_details"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/company_details_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/green_white_tab"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/company_details"
+            android:textColor="@color/text_default"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_line_gadarene" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/apply_btn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/orange_btn_with_radius"
+                android:textColor="@color/white" />
+
+            <View
+                android:id="@+id/shadow_line_upturned"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@id/apply_btn"
+                android:background="@drawable/shadow_line_upturned" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/shadow_line_upturned"
+                android:layout_alignParentTop="true">
+
+                <!--职位详情-->
+                <include layout="@layout/layout_job_details" />
+
+                <!--公司信息-->
+                <include layout="@layout/layout_company_details" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <ViewStub
+            android:id="@+id/apply_select_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout="@layout/layout_apply_select" />
+
+    </FrameLayout>
+
+</LinearLayout>

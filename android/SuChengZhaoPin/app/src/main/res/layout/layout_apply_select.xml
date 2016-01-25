@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/apply_select_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@color/bg_green"
+        android:padding="10dp"/>
+
+    <com.zhoucl.p.suchengzhaopin.view.MyListView
+        android:id="@+id/apply_select_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"/>
+
+    <Button
+        android:id="@+id/apply_create_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/orange_btn_with_radius"
+        android:text="@string/create_new_resume"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/apply_cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/gray_btn_with_radius"
+        android:text="@android:string/cancel"
+        android:textColor="@color/white" />
+
+</LinearLayout>

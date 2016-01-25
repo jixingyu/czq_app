@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">握手招聘</string>
+    <string name="send">提交</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="full">完整</string>
+    <string name="not_full">需完善</string>
+    <string name="loading">正在加载...</string>
+    <string name="no_more">没有更多了</string>
+    <string name="delete_complete">已删除</string>
+
+    <string name="login_overdue">登录已过期！</string>
+    <string name="login_overdue_content">登录已过期，请重新登录！</string>
+
+    <string name="search_hint">输入信息...</string>
+
+    <string name="tab_search">职位搜索</string>
+    <string name="tab_about">关于</string>
+    <string name="tab_user_center">个人中心</string>
+
+    <string name="about_us">关于我们</string>
+    <string name="user_center">个人中心</string>
+    <string name="feedback">意见反馈</string>
+    <string name="tks_for_your_fb">感谢您的反馈</string>
+
+    <string name="service_tel">客服电话</string>
+    <string name="service_qq">客服QQ</string>
+    <string name="feedback_tips">请输入您的宝贵意见</string>
+
+    <string name="my_resume">我的简历</string>
+    <string name="send_record">申请记录</string>
+    <string name="invite">面试邀请</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="edit_personal_details">修改个人信息</string>
+
+    <string name="job_title">职位名称：</string>
+    <string name="company_title">公司名称：</string>
+    <string name="degree_title">学位要求：</string>
+
+    <string name="salary_unit">%1$s/月</string>
+    <string name="company_staff_unit">%1$s人</string>
+
+    <string name="click_to_login">点击登录</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="username_hint">请输入您的邮箱</string>
+    <string name="psw_hint">请输入密码</string>
+    <string name="set_psw_hint">请设置您的密码，密码由6-20个数字和字母组成</string>
+    <string name="set_psw_again_hint">请再次输入密码</string>
+    <string name="find_psw">忘记密码！</string>
+    <string name="find_psw_title">忘记密码</string>
+
+    <string name="register_complete">注册成功</string>
+
+    <string name="logout">注销</string>
+
+    <string name="details">详情</string>
+    <string name="job_details">职位详情</string>
+    <string name="company_details">公司信息</string>
+    <string name="job_experience">工作经验</string>
+    <string name="job_number">招聘人数</string>
+    <string name="job_type">职位类型</string>
+    <string name="job_benefit">职位福利</string>
+    <string name="job_requirement">任职要求</string>
+    <string name="company_description">公司介绍</string>
+    <string name="apply_job">申请职位</string>
+    <string name="already_apply_job">您已申请改职位</string>
+    <string name="pls_select_a_resume">请选择一份简历投递</string>
+    <string name="must_have_a_resume">申请职位之前必须创建一份简历</string>
+    <string name="apply_successful">申请成功</string>
+
+    <string name="do_favorite_successful">已收藏</string>
+    <string name="cancel_favorite_successful">已取消收藏</string>
+
+    <string name="create_new_resume">创建新简历</string>
+
+    <string name="edit_resume">编辑简历</string>
+    <string name="personal_details">个人信息</string>
+    <string name="self_assessment">自我评价</string>
+    <string name="educational_background">教育背景</string>
+    <string name="work_experience">工作经验</string>
+
+    <string name="contact_info">联系方式</string>
+    <string name="education_info">学历专业</string>
+
+    <string name="create_new_experience">新增工作经验</string>
+    <string name="job_content">工作内容：</string>
+    <string name="company_name">公司名称</string>
+    <string name="job_start_time">任职时间（开始）</string>
+    <string name="job_end_time">任职时间（结束）</string>
+    <string name="till_now">至今</string>
+
+    <string name="name">姓名：</string>
+    <string name="mobile">手机号：</string>
+    <string name="email">邮箱：</string>
+
+    <string name="save_successful">已保存</string>
+
+    <string name="favorite_top_text">你目前共收藏%1$d个职位</string>
+    <string name="record_top_text">你目前共申请%1$d个职位</string>
+    <string name="invite_top_text">你目前共有%1$d个面试邀请函</string>
+
+    <string name="apply_job_name">应聘职位：</string>
+    <string name="interview_time">面试时间：</string>
+    <string name="interview_place">面试地点：</string>
+
+    <string name="force_update_content">您必须更新至新版才能继续使用，请前往应用市场下载新版APP！</string>
+
+    <string name="not_save_tip">确定退出？</string>
+
+</resources>
