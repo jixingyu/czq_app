@@ -1,0 +1,21 @@
+//
+//  MyRecruitment-Prefix.pch
+//  MyRecruitment
+//
+//  Created by developer on 15/6/25.
+//  Copyright (c) 2015年 developer. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+#define IS_IPHONE5 (([[UIScreen mainScreen] bounds].size.height-480)?YES:NO)
+
+#define kAppMainURL            @"czq.justxy.com"
+
+#define AppDelegateAccessor ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue&0xFF0000)>>16))/255. green:((float)((rgbValue&0xFF00)>>8))/255. blue:((float)((rgbValue&0xFF)))/255. alpha:1]
